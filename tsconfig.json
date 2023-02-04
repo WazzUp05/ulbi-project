@@ -7,6 +7,10 @@
         "jsx": "react-jsx",
         // Компилятор будет обрабатывать не только TS файлы, но и JS файлы
         "allowJs": true,
+        "baseUrl": ".",
+        "paths": {
+            "*": ["./src/*"]
+        },
         "moduleResolution": "node",
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true
