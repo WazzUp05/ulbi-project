@@ -5,19 +5,22 @@
         "module": "ESNext",
         "target": "es5",
         "jsx": "react-jsx",
+        // "strict": true,
         // Компилятор будет обрабатывать не только TS файлы, но и JS файлы
         "allowJs": true,
         "baseUrl": ".",
         "paths": {
             "*": ["./src/*"]
         },
+
         "moduleResolution": "node",
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true
     },
     "ts-node": {
         "compilerOptions": {
-            "module": "CommonJS"
+            "module": "CommonJS",
+            "strictNullChecks": true
         }
     }
 }

@@ -5,11 +5,14 @@
     align-items: center;
     background: var(--interted-bg-color);
 }
+
 .links {
     margin-left: auto;
 }
+
 .link {
     margin-right: 15px;
+
     &:last-child {
         margin-right: 0;
     }
