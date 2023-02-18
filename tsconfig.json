@@ -5,7 +5,7 @@
         "module": "ESNext",
         "target": "es5",
         "jsx": "react-jsx",
-        // "strict": true,
+        "strict": true,
         // Компилятор будет обрабатывать не только TS файлы, но и JS файлы
         "allowJs": true,
         "baseUrl": ".",
@@ -22,5 +22,6 @@
             "module": "CommonJS",
             "strictNullChecks": true
         }
-    }
+    },
+    "include": ["./config/jest/setupTests.ts", "src"]
 }

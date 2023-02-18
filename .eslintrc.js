@@ -2,17 +2,18 @@ module.exports = {
     env: {
         browser: true,
         es2021: true,
+        jest: true,
     },
     extends: ['plugin:react/recommended', 'standard-with-typescript', 'prettier', 'plugin:i18next/recommended'],
     overrides: [],
     parserOptions: {
-        project: 'tsconfig.json',
-        tsconfigRootDir: __dirname,
-        ecmaVersion: 'latest',
+        // project: './tsconfig.json',
+        // tsconfigRootDir: __dirname,
 
         ecmaFeatures: {
             jsx: true,
         },
+        ecmaVersion: 'latest',
         sourceType: 'module',
     },
     plugins: ['react', 'i18next', '@typescript-eslint'],
@@ -39,9 +40,17 @@ module.exports = {
         '@typescript-eslint/consistent-type-imports': 'warn',
         '@typescript-eslint/naming-convention': 'off',
         '@typescript-eslint/no-var-requires': 'warn',
-        'i18next/no-literal-string': ['error', { markupOnly: true }],
+        'i18next/no-literal-string': ['error', { markupOnly: true, ignoreAttribute: ['data-testid'] }],
     },
     globals: {
         __IS_DEV__: true,
     },
+    overrides: [
+        {
+            files: ['**/src/**/*.test.{ts,tsx}'],
+            rules: {
+                'i18next/no-literal-string': 'off',
+            },
+        },
+    ],
 };
