@@ -27,9 +27,10 @@ module.exports = {
         'react/jsx-props-no-spreading': 'warn',
         'react/function-component-definition': 'off',
         'no-shadow': 'off',
-        'import/extensions': 'off',
+        'import/extensions': ['warn', 'as-needed'],
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
+        'arrow-parens': 'as-needed',
         'i18next/no-literal-string': [
             'error',
             {
@@ -37,6 +38,7 @@ module.exports = {
                 ignoreAttribute: ['data-testid', 'to'],
             },
         ],
+        'max-len': ['error', { ignoreComments: true, code: 100 }],
     },
     globals: {
         __IS_DEV__: true,
