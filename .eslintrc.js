@@ -27,10 +27,10 @@ module.exports = {
         'react/jsx-props-no-spreading': 'warn',
         'react/function-component-definition': 'off',
         'no-shadow': 'off',
-        'import/extensions': ['warn', 'as-needed'],
+        'import/extensions': 'off',
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
-        'arrow-parens': 'as-needed',
+        'arrow-parens': ['warn', 'as-needed'],
         'i18next/no-literal-string': [
             'error',
             {
