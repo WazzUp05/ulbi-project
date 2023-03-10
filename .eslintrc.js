@@ -31,6 +31,7 @@ module.exports = {
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
         'arrow-parens': ['warn', 'as-needed'],
+        'object-curly-newline': ['warn', 'never'],
         'i18next/no-literal-string': [
             'error',
             {
