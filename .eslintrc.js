@@ -32,6 +32,7 @@ module.exports = {
         'no-underscore-dangle': 'off',
         'arrow-parens': ['warn', 'as-needed'],
         'object-curly-newline': ['warn', 'never'],
+        'wrap-iife': ['warn', 'never'],
         'i18next/no-literal-string': [
             'error',
             {
