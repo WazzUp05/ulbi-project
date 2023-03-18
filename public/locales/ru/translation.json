@@ -12,5 +12,8 @@
   "О сайте": "О сайте",
   "Короткий язык": "Ру",
   "decrement": "Вычитание",
-  "increment": "Добавление"
+  "increment": "Добавление",
+  "Enter password": "Введите пароль",
+  "Enter username": "Введите username",
+  "Login": "Войти"
 }

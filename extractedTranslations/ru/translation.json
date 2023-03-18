@@ -1,7 +1,12 @@
 {
+  "Enter password": "Enter password",
+  "Enter username": "Enter username",
+  "Login": "Login",
   "decrement": "decrement",
   "increment": "increment",
   "throw error": "throw error",
+  "Введите username": "Введите username",
+  "Введите пароль": "Введите пароль",
   "Войти": "Войти",
   "Главная": "Главная",
   "Главная страница": "Главная страница",

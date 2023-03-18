@@ -12,5 +12,8 @@
   "О сайте": "About us",
   "Короткий язык": "En",
   "decrement": "Decrement",
-  "increment": "Increment"
+  "increment": "Increment",
+  "Enter password": "Enter password",
+  "Enter username": "Enter username",
+  "Login": "Login"
 }
