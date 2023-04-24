@@ -45,20 +45,10 @@ export const Square = Template.bind({});
 Square.args = { children: '>', theme: ButtonTheme.BACKGROUND_INVERTED, square: true };
 
 export const SquareSizeL = Template.bind({});
-SquareSizeL.args = {
-    children: '>',
-    theme: ButtonTheme.BACKGROUND_INVERTED,
-    square: true,
-    size: ButtonSize.L,
-};
+SquareSizeL.args = { children: '>', theme: ButtonTheme.BACKGROUND_INVERTED, square: true, size: ButtonSize.L };
 
 export const SquareSizeXL = Template.bind({});
-SquareSizeXL.args = {
-    children: '>',
-    theme: ButtonTheme.BACKGROUND_INVERTED,
-    square: true,
-    size: ButtonSize.XL,
-};
+SquareSizeXL.args = { children: '>', theme: ButtonTheme.BACKGROUND_INVERTED, square: true, size: ButtonSize.XL };
 
 export const Disabled = Template.bind({});
-Disabled.args = { children: '>', theme: ButtonTheme.OUTLINE, disable: true };
+Disabled.args = { children: '>', theme: ButtonTheme.OUTLINE, disabled: true };
